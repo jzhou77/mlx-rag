@@ -10,6 +10,11 @@ I have previously converted the weights for the embedding model [gte-large](http
 
 * Install requirements
 ```bash
+conda create -n mlx python=3.13
+conda activate mlx
+conda install -c conda-forge mlx-lm
+brew install poppler tesseract
+
 python3 -m pip install -r requirements.txt
 ```
 
